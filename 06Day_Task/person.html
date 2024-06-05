@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Person{
+       constructor(name,dob,state,father,mother,mobile){
+             this.name=name,
+             this.dob=dob,
+             this.state=state,
+             this.father=father,
+             this.mother=mother,
+             this.mobile=mobile
+         }
+       }
+       let obj=new Person("Rajasekar","13-11-2001","Tamil Nadu","Lokesh","Malliga","8610300597");
+       let {name,dob,state,father,mother,mobile}=obj;
+       console.log(`My name is ${name} and my date of birth is ${dob}.I am from ${state} and my mother's name is ${mother}, father's name is ${father} and you can contact me using my mobile number ${mobile}.`)
+    </script>
+</body>
+</html>
